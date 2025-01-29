@@ -1,34 +1,34 @@
 # Attendance_system
 
-# needed requirements
-Java JDK 17 or higher
-Maven 3.6 or higher
-Node.js and npm (for client-side development)
+Needed requirements <br />
+Java JDK 17 or higher<br />
+Maven 3.6 or higher<br />
+Node.js and npm (for client-side)<br />
 Git
 
 
 # App structure
-attendance-system/
-├── server/              # Backend Spring Boot application
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com/
-│           │       └── example/
-│           │           └── attendancesystem/
-│           │               
-│           │               ├── controller/
-│           │               ├── model/
-│           │               └── service/
-│           └── resources/
-└── client/       
-     ├── login.html/
-     ├── index.html/
-     └── script.js/      
+Attendance-system/<br />
+├── server/              # Backend Spring Boot application<br />
+│   └── src/<br />
+│       └── main/<br />
+│           ├── java/<br />
+│           │   └── com/<br />
+│           │       └── example/<br />
+│           │           └── attendancesystem/<br />
+│           │               <br />
+│           │               ├── controller/<br />
+│           │               ├── model/<br />
+│           │               └── service/<br />
+│           └── resources/<br />
+└── client/       <br />
+     ├── login.html/<br />
+     ├── index.html/<br />
+     └── script.js/      <br />
 
 
 # Clone the repository 
-git clone (https://github.com/krishnamenan007/attendance-system.git)
+git clone (https://github.com/krishnamenan007/attendance-system.git)<br />
 cd attendance-system
 
 # Navigate to the server directory
@@ -53,6 +53,6 @@ npm start
 
 # Now Client Application will start on (http://localhost:5500)
 
-username : admin
+username : admin <br />
 password : 1234
 
