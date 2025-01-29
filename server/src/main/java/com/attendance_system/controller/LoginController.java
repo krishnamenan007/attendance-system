@@ -10,7 +10,7 @@ import com.attendance_system.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "*")  // Allows any origin for API testing purpose
+@CrossOrigin(origins = "http://localhost:5500")  // Allows any origin for API testing purpose
 
 
 public class LoginController {
