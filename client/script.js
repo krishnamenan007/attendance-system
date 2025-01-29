@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
         const token = localStorage.getItem("jwtToken");
         if (!token) {
-            window.location.href = "login.html"; // Redirect to login if not authenticated
+            window.location.href = "login.html"; 
         } 
     }
 });
