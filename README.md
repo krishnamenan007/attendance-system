@@ -46,7 +46,7 @@ mvn spring-boot:run
 cd client
 
 # Installing dependencies
-npm install
+npm install 
 
 # Start the application
 npm start

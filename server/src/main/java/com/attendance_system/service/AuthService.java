@@ -17,7 +17,7 @@ public class AuthService {
         // Temporary user credentials for development purposes)
         userCredentials = new HashMap<>();
         userCredentials.put("user", "password123");
-        userCredentials.put("admin", "1234"); 
+        userCredentials.put("admin", "1234");
     }
 
     public String authenticateUser(String username, String password) {
